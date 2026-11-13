@@ -1,0 +1,44 @@
+[project]
+name = "ask-your-data"
+version = "0.1.0"
+description = "AI data analyst agent: ask questions about a CSV or SQL database in plain English."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+  "anthropic>=0.40",
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+  "python-multipart>=0.0.9",
+  "pandas>=2.2",
+  "matplotlib>=3.8",
+  "sqlglot>=25.0",
+]
+
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.1"]
+dev = ["pytest>=8", "httpx>=0.27", "ruff>=0.5"]
+
+[project.scripts]
+ask-your-data = "ask_your_data.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["ask_your_data*"]
+
+[tool.setuptools.package-data]
+ask_your_data = ["static/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501", "B008"]  # long lines are fine; File(...) default is the FastAPI idiom
