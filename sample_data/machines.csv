@@ -1,0 +1,13 @@
+machine_id,machine_type,capacity_kg,plant
+JET-01,jet,300,A
+JET-02,jet,300,A
+JET-03,jet,450,A
+JET-04,jet,450,B
+JET-05,jet,600,B
+JET-06,jet,600,B
+JET-07,jet,450,B
+OVF-01,overflow,250,A
+OVF-02,overflow,250,A
+PKG-01,package,800,B
+PKG-02,package,800,B
+CNT-01,continuous,2000,A

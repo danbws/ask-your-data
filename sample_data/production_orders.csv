@@ -1,0 +1,601 @@
+order_id,customer,fabric,quantity_kg,order_date,due_date,completed_date,status,lead_time_days
+1,Customer 07,cotton jersey,389,2025-11-29,2025-12-10,,in_progress,
+2,Customer 08,cotton jersey,338,2025-01-22,2025-01-30,2025-01-31,completed,9
+3,Customer 04,polyester microfiber,863,2025-11-03,2025-11-14,2025-11-10,completed,7
+4,Customer 03,cotton jersey,881,2025-02-10,2025-02-22,2025-02-19,completed,9
+5,Customer 13,cotton poplin,296,2025-10-06,2025-10-13,2025-10-11,completed,5
+6,Customer 03,viscose,412,2025-06-16,2025-06-26,2025-06-25,completed,9
+7,Customer 09,cotton poplin,191,2025-05-21,2025-05-29,2025-05-26,completed,5
+8,Customer 05,cotton jersey,1457,2025-09-15,2025-09-27,2025-09-25,completed,10
+9,Customer 15,cotton poplin,502,2025-09-19,2025-09-28,2025-09-24,completed,5
+10,Customer 11,cotton poplin,743,2025-06-12,2025-06-20,2025-06-17,completed,5
+11,Customer 07,poly-cotton,225,2025-09-06,2025-09-15,2025-09-15,completed,9
+12,Customer 04,viscose,1007,2025-07-16,2025-07-26,2025-07-25,completed,9
+13,Customer 11,viscose,244,2025-09-05,2025-09-17,2025-09-14,completed,9
+14,Customer 05,cotton jersey,522,2025-02-25,2025-03-05,2025-03-04,completed,7
+15,Customer 05,cotton poplin,903,2025-08-30,2025-09-09,2025-09-06,completed,7
+16,Customer 09,poly-cotton,1504,2025-08-10,2025-08-17,2025-08-18,completed,8
+17,Customer 10,cotton poplin,246,2025-02-16,2025-02-23,2025-02-24,completed,8
+18,Customer 10,viscose,1032,2025-02-16,2025-02-26,2025-02-21,completed,5
+19,Customer 03,cotton jersey,339,2025-10-21,2025-10-30,2025-10-27,completed,6
+20,Customer 05,poly-cotton,1228,2025-08-18,2025-08-27,2025-08-24,completed,6
+21,Customer 03,cotton poplin,612,2025-11-11,2025-11-20,,in_progress,
+22,Customer 11,poly-cotton,755,2025-08-20,2025-08-28,2025-08-27,completed,7
+23,Customer 01,cotton jersey,226,2025-05-13,2025-05-23,2025-05-18,completed,5
+24,Customer 05,polyester microfiber,1200,2025-04-07,2025-04-16,2025-04-15,completed,8
+25,Customer 05,polyester microfiber,178,2025-02-10,2025-02-21,2025-02-15,completed,5
+26,Customer 11,cotton jersey,846,2025-01-25,2025-02-03,2025-02-03,completed,9
+27,Customer 05,polyester microfiber,1312,2025-03-10,2025-03-17,2025-03-19,completed,9
+28,Customer 03,cotton poplin,634,2025-06-01,2025-06-13,2025-06-08,completed,7
+29,Customer 15,polyester microfiber,890,2025-02-18,2025-02-28,2025-02-26,completed,8
+30,Customer 03,poly-cotton,1407,2025-11-24,2025-12-02,,in_progress,
+31,Customer 06,viscose,413,2025-09-28,2025-10-09,2025-10-06,completed,8
+32,Customer 03,poly-cotton,860,2025-08-20,2025-08-27,2025-08-29,completed,9
+33,Customer 14,cotton poplin,375,2025-03-24,2025-04-01,2025-03-28,completed,4
+34,Customer 11,viscose,1981,2025-08-09,2025-08-21,2025-08-18,completed,9
+35,Customer 08,cotton poplin,1047,2025-08-01,2025-08-08,2025-08-08,completed,7
+36,Customer 10,poly-cotton,384,2025-01-15,2025-01-22,2025-01-20,completed,5
+37,Customer 10,cotton poplin,477,2025-03-25,2025-04-05,2025-03-30,completed,5
+38,Customer 15,cotton poplin,1328,2025-03-05,2025-03-17,2025-03-13,completed,8
+39,Customer 14,cotton poplin,1517,2025-08-29,2025-09-07,2025-09-04,completed,6
+40,Customer 04,cotton jersey,162,2025-05-11,2025-05-21,2025-05-16,completed,5
+41,Customer 07,polyester microfiber,664,2025-07-06,2025-07-18,2025-07-11,completed,5
+42,Customer 02,poly-cotton,2228,2025-09-13,2025-09-21,2025-09-20,completed,7
+43,Customer 13,polyester microfiber,233,2025-04-14,2025-04-25,2025-04-23,completed,9
+44,Customer 01,poly-cotton,265,2025-10-01,2025-10-10,2025-10-06,completed,5
+45,Customer 08,poly-cotton,362,2025-02-02,2025-02-12,2025-02-09,completed,7
+46,Customer 02,cotton poplin,1597,2025-06-29,2025-07-11,2025-07-09,completed,10
+47,Customer 08,cotton poplin,184,2025-04-22,2025-05-03,2025-05-01,completed,9
+48,Customer 11,cotton jersey,1326,2025-06-04,2025-06-15,2025-06-13,completed,9
+49,Customer 14,viscose,364,2025-04-17,2025-04-29,2025-04-25,completed,8
+50,Customer 01,polyester microfiber,206,2025-10-24,2025-11-04,2025-10-28,completed,4
+51,Customer 07,polyester microfiber,629,2025-08-15,2025-08-26,2025-08-21,completed,6
+52,Customer 11,viscose,2059,2025-11-27,2025-12-07,,in_progress,
+53,Customer 03,cotton jersey,151,2025-08-20,2025-09-01,2025-08-25,completed,5
+54,Customer 05,poly-cotton,264,2025-06-14,2025-06-26,2025-06-21,completed,7
+55,Customer 15,polyester microfiber,236,2025-09-23,2025-10-05,2025-10-01,completed,8
+56,Customer 11,cotton jersey,309,2025-03-16,2025-03-27,2025-03-24,completed,8
+57,Customer 10,cotton poplin,172,2025-09-13,2025-09-21,2025-09-22,completed,9
+58,Customer 13,cotton poplin,718,2025-07-21,2025-07-31,2025-07-26,completed,5
+59,Customer 12,polyester microfiber,506,2025-05-21,2025-06-02,2025-05-26,completed,5
+60,Customer 09,viscose,547,2025-02-26,2025-03-06,2025-03-05,completed,7
+61,Customer 11,poly-cotton,764,2025-08-04,2025-08-13,2025-08-12,completed,8
+62,Customer 14,cotton poplin,567,2025-10-12,2025-10-22,2025-10-17,completed,5
+63,Customer 10,cotton jersey,555,2025-09-10,2025-09-17,2025-09-16,completed,6
+64,Customer 01,poly-cotton,1009,2025-01-31,2025-02-10,2025-02-07,completed,7
+65,Customer 14,polyester microfiber,732,2025-10-29,2025-11-10,2025-11-05,completed,7
+66,Customer 14,cotton jersey,442,2025-06-28,2025-07-08,2025-07-09,completed,11
+67,Customer 15,polyester microfiber,332,2025-11-28,2025-12-08,,in_progress,
+68,Customer 08,viscose,279,2025-06-09,2025-06-19,2025-06-14,completed,5
+69,Customer 12,poly-cotton,1681,2025-07-14,2025-07-21,2025-07-20,completed,6
+70,Customer 05,cotton poplin,402,2025-07-14,2025-07-24,2025-07-18,completed,4
+71,Customer 13,cotton jersey,1396,2025-04-13,2025-04-22,2025-04-19,completed,6
+72,Customer 13,poly-cotton,295,2025-05-07,2025-05-17,2025-05-14,completed,7
+73,Customer 08,poly-cotton,628,2025-07-10,2025-07-17,2025-07-20,completed,10
+74,Customer 14,cotton jersey,2096,2025-08-21,2025-08-30,2025-08-29,completed,8
+75,Customer 14,viscose,202,2025-08-26,2025-09-02,2025-08-30,completed,4
+76,Customer 02,cotton jersey,1691,2025-02-18,2025-03-02,2025-02-24,completed,6
+77,Customer 11,polyester microfiber,1180,2025-08-04,2025-08-15,2025-08-13,completed,9
+78,Customer 01,poly-cotton,705,2025-12-01,2025-12-10,,in_progress,
+79,Customer 15,cotton poplin,583,2025-04-08,2025-04-15,2025-04-19,completed,11
+80,Customer 05,cotton poplin,456,2025-02-01,2025-02-11,2025-02-08,completed,7
+81,Customer 10,poly-cotton,268,2025-04-26,2025-05-06,2025-05-01,completed,5
+82,Customer 03,cotton jersey,386,2025-02-03,2025-02-13,2025-02-12,completed,9
+83,Customer 07,viscose,588,2025-03-13,2025-03-25,2025-03-23,completed,10
+84,Customer 14,cotton jersey,371,2025-06-03,2025-06-13,2025-06-07,completed,4
+85,Customer 09,cotton poplin,342,2025-03-01,2025-03-08,2025-03-06,completed,5
+86,Customer 13,cotton jersey,689,2025-11-26,2025-12-07,,in_progress,
+87,Customer 02,viscose,972,2025-10-29,2025-11-09,2025-11-05,completed,7
+88,Customer 06,viscose,405,2025-06-13,2025-06-21,2025-06-23,completed,10
+89,Customer 15,viscose,414,2025-11-11,2025-11-20,,in_progress,
+90,Customer 05,viscose,493,2025-05-30,2025-06-09,2025-06-08,completed,9
+91,Customer 06,poly-cotton,1072,2025-05-15,2025-05-22,2025-05-22,completed,7
+92,Customer 13,cotton poplin,1516,2025-06-13,2025-06-22,2025-06-25,completed,12
+93,Customer 03,cotton poplin,745,2025-08-23,2025-09-03,2025-08-29,completed,6
+94,Customer 15,cotton jersey,901,2025-05-14,2025-05-23,2025-05-22,completed,8
+95,Customer 11,viscose,175,2025-01-19,2025-01-31,2025-01-23,completed,4
+96,Customer 15,cotton poplin,550,2025-06-26,2025-07-03,2025-07-04,completed,8
+97,Customer 01,cotton jersey,346,2025-02-15,2025-02-22,2025-02-21,completed,6
+98,Customer 03,viscose,1104,2025-05-08,2025-05-18,2025-05-17,completed,9
+99,Customer 12,poly-cotton,1748,2025-02-18,2025-02-25,2025-02-25,completed,7
+100,Customer 05,cotton jersey,260,2025-08-28,2025-09-07,2025-09-05,completed,8
+101,Customer 15,cotton poplin,269,2025-01-24,2025-02-03,2025-02-02,completed,9
+102,Customer 02,polyester microfiber,2083,2025-07-22,2025-07-29,2025-08-02,completed,11
+103,Customer 02,viscose,1644,2025-11-28,2025-12-06,,in_progress,
+104,Customer 09,polyester microfiber,450,2025-05-06,2025-05-14,2025-05-14,completed,8
+105,Customer 13,viscose,390,2025-07-12,2025-07-21,2025-07-16,completed,4
+106,Customer 15,viscose,531,2025-05-19,2025-05-27,2025-05-26,completed,7
+107,Customer 06,cotton jersey,2441,2025-08-21,2025-09-01,2025-08-30,completed,9
+108,Customer 03,poly-cotton,173,2025-09-02,2025-09-09,2025-09-10,completed,8
+109,Customer 14,cotton jersey,606,2025-06-17,2025-06-24,2025-06-25,completed,8
+110,Customer 05,poly-cotton,277,2025-03-10,2025-03-17,2025-03-16,completed,6
+111,Customer 10,poly-cotton,537,2025-04-16,2025-04-28,2025-04-21,completed,5
+112,Customer 02,polyester microfiber,1554,2025-11-11,2025-11-21,,in_progress,
+113,Customer 07,cotton poplin,184,2025-02-05,2025-02-14,2025-02-14,completed,9
+114,Customer 12,polyester microfiber,403,2025-03-13,2025-03-24,2025-03-20,completed,7
+115,Customer 15,cotton poplin,1143,2025-06-15,2025-06-23,2025-06-23,completed,8
+116,Customer 04,polyester microfiber,860,2025-05-21,2025-05-29,2025-05-28,completed,7
+117,Customer 15,poly-cotton,170,2025-11-10,2025-11-21,2025-11-15,completed,5
+118,Customer 12,cotton poplin,542,2025-09-26,2025-10-06,2025-10-04,completed,8
+119,Customer 11,polyester microfiber,801,2025-10-21,2025-11-01,2025-10-27,completed,6
+120,Customer 07,viscose,518,2025-11-19,2025-11-27,,in_progress,
+121,Customer 09,viscose,905,2025-04-20,2025-04-29,2025-04-29,completed,9
+122,Customer 05,polyester microfiber,919,2025-07-06,2025-07-15,2025-07-16,completed,10
+123,Customer 04,poly-cotton,608,2025-03-09,2025-03-19,2025-03-19,completed,10
+124,Customer 04,poly-cotton,207,2025-04-19,2025-05-01,2025-04-24,completed,5
+125,Customer 15,cotton jersey,1478,2025-02-01,2025-02-13,2025-02-08,completed,7
+126,Customer 13,viscose,2086,2025-09-06,2025-09-16,2025-09-11,completed,5
+127,Customer 14,cotton poplin,2191,2025-09-16,2025-09-27,2025-09-25,completed,9
+128,Customer 02,viscose,1127,2025-11-29,2025-12-11,,in_progress,
+129,Customer 04,polyester microfiber,601,2025-09-01,2025-09-12,2025-09-07,completed,6
+130,Customer 09,cotton poplin,430,2025-04-28,2025-05-08,2025-05-07,completed,9
+131,Customer 08,cotton jersey,890,2025-07-10,2025-07-21,2025-07-17,completed,7
+132,Customer 15,cotton jersey,254,2025-06-12,2025-06-19,2025-06-20,completed,8
+133,Customer 07,viscose,280,2025-02-10,2025-02-20,2025-02-19,completed,9
+134,Customer 05,poly-cotton,358,2025-02-16,2025-02-23,2025-02-20,completed,4
+135,Customer 07,poly-cotton,396,2025-08-31,2025-09-12,2025-09-06,completed,6
+136,Customer 09,cotton jersey,177,2025-11-16,2025-11-24,,in_progress,
+137,Customer 15,cotton jersey,386,2025-04-27,2025-05-06,2025-05-02,completed,5
+138,Customer 06,poly-cotton,396,2025-03-20,2025-03-27,2025-03-27,completed,7
+139,Customer 02,viscose,838,2025-12-01,2025-12-13,,in_progress,
+140,Customer 13,polyester microfiber,1764,2025-08-24,2025-09-01,2025-08-30,completed,6
+141,Customer 15,poly-cotton,404,2025-11-02,2025-11-12,2025-11-11,completed,9
+142,Customer 06,poly-cotton,805,2025-05-10,2025-05-18,2025-05-17,completed,7
+143,Customer 10,viscose,381,2025-06-15,2025-06-25,2025-06-22,completed,7
+144,Customer 11,viscose,702,2025-05-11,2025-05-22,2025-05-17,completed,6
+145,Customer 03,poly-cotton,278,2025-02-05,2025-02-17,2025-02-09,completed,4
+146,Customer 11,cotton poplin,537,2025-01-10,2025-01-22,2025-01-21,completed,11
+147,Customer 07,cotton poplin,228,2025-08-14,2025-08-23,2025-08-18,completed,4
+148,Customer 07,poly-cotton,1281,2025-08-29,2025-09-08,2025-09-02,completed,4
+149,Customer 01,poly-cotton,1196,2025-07-18,2025-07-27,2025-07-26,completed,8
+150,Customer 03,polyester microfiber,1550,2025-02-13,2025-02-25,2025-02-21,completed,8
+151,Customer 06,poly-cotton,910,2025-02-15,2025-02-23,2025-02-23,completed,8
+152,Customer 03,viscose,628,2025-10-16,2025-10-25,2025-10-20,completed,4
+153,Customer 02,cotton poplin,598,2025-07-19,2025-07-26,2025-07-24,completed,5
+154,Customer 15,poly-cotton,691,2025-07-06,2025-07-17,2025-07-15,completed,9
+155,Customer 11,poly-cotton,888,2025-05-10,2025-05-22,2025-05-16,completed,6
+156,Customer 03,poly-cotton,584,2025-09-16,2025-09-25,2025-09-24,completed,8
+157,Customer 15,polyester microfiber,1606,2025-07-28,2025-08-04,2025-08-03,completed,6
+158,Customer 03,cotton poplin,373,2025-10-21,2025-10-31,2025-10-31,completed,10
+159,Customer 07,polyester microfiber,489,2025-11-26,2025-12-07,,in_progress,
+160,Customer 12,poly-cotton,2881,2025-10-06,2025-10-17,2025-10-19,completed,13
+161,Customer 06,cotton poplin,223,2025-09-19,2025-09-28,2025-09-25,completed,6
+162,Customer 09,cotton poplin,1636,2025-08-27,2025-09-04,2025-09-05,completed,9
+163,Customer 04,polyester microfiber,414,2025-03-28,2025-04-09,2025-04-02,completed,5
+164,Customer 02,polyester microfiber,907,2025-04-21,2025-05-02,2025-04-30,completed,9
+165,Customer 07,polyester microfiber,358,2025-03-15,2025-03-26,2025-03-20,completed,5
+166,Customer 04,cotton poplin,488,2025-08-10,2025-08-18,2025-08-18,completed,8
+167,Customer 10,poly-cotton,439,2025-07-21,2025-07-31,2025-07-27,completed,6
+168,Customer 08,poly-cotton,1930,2025-09-16,2025-09-23,2025-09-23,completed,7
+169,Customer 05,polyester microfiber,1991,2025-05-20,2025-05-29,2025-05-30,completed,10
+170,Customer 08,polyester microfiber,1468,2025-10-26,2025-11-04,2025-11-06,completed,11
+171,Customer 10,polyester microfiber,1461,2025-09-12,2025-09-23,2025-09-19,completed,7
+172,Customer 06,poly-cotton,1151,2025-03-13,2025-03-25,2025-03-18,completed,5
+173,Customer 02,cotton jersey,493,2025-05-14,2025-05-26,2025-05-21,completed,7
+174,Customer 12,cotton jersey,181,2025-02-23,2025-03-05,2025-02-27,completed,4
+175,Customer 13,viscose,264,2025-03-14,2025-03-24,2025-03-19,completed,5
+176,Customer 11,cotton poplin,443,2025-03-15,2025-03-26,2025-03-22,completed,7
+177,Customer 05,cotton poplin,182,2025-08-20,2025-08-28,2025-08-25,completed,5
+178,Customer 10,cotton jersey,632,2025-12-02,2025-12-13,,in_progress,
+179,Customer 07,cotton poplin,686,2025-09-23,2025-10-04,2025-10-01,completed,8
+180,Customer 12,poly-cotton,488,2025-07-12,2025-07-22,2025-07-20,completed,8
+181,Customer 02,cotton jersey,543,2025-07-30,2025-08-07,2025-08-04,completed,5
+182,Customer 03,cotton jersey,1567,2025-08-16,2025-08-25,2025-08-22,completed,6
+183,Customer 09,cotton jersey,984,2025-05-23,2025-06-04,2025-05-29,completed,6
+184,Customer 13,cotton jersey,1768,2025-01-07,2025-01-15,2025-01-13,completed,6
+185,Customer 13,cotton jersey,1200,2025-09-27,2025-10-04,2025-10-05,completed,8
+186,Customer 15,polyester microfiber,236,2025-07-17,2025-07-25,2025-07-21,completed,4
+187,Customer 14,viscose,676,2025-09-29,2025-10-11,2025-10-07,completed,8
+188,Customer 14,polyester microfiber,430,2025-06-22,2025-07-01,2025-06-30,completed,8
+189,Customer 12,cotton jersey,537,2025-03-08,2025-03-15,2025-03-13,completed,5
+190,Customer 09,polyester microfiber,246,2025-05-13,2025-05-25,2025-05-21,completed,8
+191,Customer 04,cotton jersey,764,2025-05-13,2025-05-20,2025-05-18,completed,5
+192,Customer 10,viscose,770,2025-12-02,2025-12-13,,in_progress,
+193,Customer 13,cotton poplin,462,2025-11-17,2025-11-27,,in_progress,
+194,Customer 13,viscose,645,2025-07-08,2025-07-17,2025-07-19,completed,11
+195,Customer 03,cotton poplin,1816,2025-11-01,2025-11-10,2025-11-11,completed,10
+196,Customer 06,cotton jersey,356,2025-09-14,2025-09-22,2025-09-21,completed,7
+197,Customer 12,polyester microfiber,353,2025-04-06,2025-04-15,2025-04-10,completed,4
+198,Customer 03,poly-cotton,407,2025-07-27,2025-08-05,2025-08-05,completed,9
+199,Customer 12,poly-cotton,834,2025-10-20,2025-10-29,2025-10-28,completed,8
+200,Customer 05,cotton poplin,370,2025-02-14,2025-02-21,2025-02-21,completed,7
+201,Customer 11,cotton poplin,798,2025-04-23,2025-05-04,2025-05-01,completed,8
+202,Customer 01,cotton poplin,580,2025-05-01,2025-05-13,2025-05-09,completed,8
+203,Customer 09,cotton poplin,2116,2025-08-14,2025-08-25,2025-08-24,completed,10
+204,Customer 05,cotton poplin,216,2025-09-14,2025-09-26,2025-09-19,completed,5
+205,Customer 06,viscose,996,2025-02-16,2025-02-28,2025-02-21,completed,5
+206,Customer 11,viscose,2776,2025-10-10,2025-10-17,2025-10-19,completed,9
+207,Customer 15,cotton poplin,1586,2025-08-16,2025-08-27,2025-08-24,completed,8
+208,Customer 11,viscose,595,2025-07-01,2025-07-12,2025-07-09,completed,8
+209,Customer 14,cotton jersey,496,2025-07-30,2025-08-08,2025-08-05,completed,6
+210,Customer 12,polyester microfiber,223,2025-06-10,2025-06-19,2025-06-16,completed,6
+211,Customer 13,poly-cotton,854,2025-08-07,2025-08-15,2025-08-15,completed,8
+212,Customer 04,poly-cotton,405,2025-10-01,2025-10-13,2025-10-07,completed,6
+213,Customer 11,polyester microfiber,2097,2025-05-26,2025-06-03,2025-06-01,completed,6
+214,Customer 04,cotton poplin,340,2025-05-01,2025-05-08,2025-05-09,completed,8
+215,Customer 05,poly-cotton,1413,2025-05-15,2025-05-24,2025-05-20,completed,5
+216,Customer 01,polyester microfiber,1870,2025-11-29,2025-12-11,,in_progress,
+217,Customer 04,poly-cotton,1979,2025-10-31,2025-11-09,2025-11-06,completed,6
+218,Customer 06,viscose,1315,2025-06-12,2025-06-20,2025-06-18,completed,6
+219,Customer 08,poly-cotton,1259,2025-08-03,2025-08-13,2025-08-11,completed,8
+220,Customer 01,cotton jersey,379,2025-07-21,2025-08-02,2025-07-25,completed,4
+221,Customer 08,cotton poplin,405,2025-11-22,2025-12-01,,in_progress,
+222,Customer 01,poly-cotton,826,2025-09-29,2025-10-11,2025-10-05,completed,6
+223,Customer 10,poly-cotton,501,2025-11-03,2025-11-10,2025-11-11,completed,8
+224,Customer 05,cotton jersey,378,2025-01-30,2025-02-10,2025-02-09,completed,10
+225,Customer 07,poly-cotton,554,2025-11-20,2025-12-02,,in_progress,
+226,Customer 15,cotton poplin,228,2025-06-06,2025-06-13,2025-06-15,completed,9
+227,Customer 14,poly-cotton,932,2025-03-03,2025-03-10,2025-03-09,completed,6
+228,Customer 15,polyester microfiber,1222,2025-06-03,2025-06-15,2025-06-11,completed,8
+229,Customer 11,cotton jersey,1147,2025-04-01,2025-04-12,2025-04-08,completed,7
+230,Customer 12,cotton poplin,804,2025-08-18,2025-08-29,2025-08-30,completed,12
+231,Customer 09,cotton poplin,1610,2025-10-22,2025-10-30,2025-11-01,completed,10
+232,Customer 08,viscose,262,2025-12-01,2025-12-08,,in_progress,
+233,Customer 15,cotton jersey,232,2025-01-15,2025-01-24,2025-01-26,completed,11
+234,Customer 13,poly-cotton,586,2025-09-23,2025-10-04,2025-09-29,completed,6
+235,Customer 08,poly-cotton,972,2025-11-19,2025-11-27,,in_progress,
+236,Customer 02,viscose,503,2025-03-18,2025-03-27,2025-03-27,completed,9
+237,Customer 13,cotton jersey,1491,2025-08-06,2025-08-18,2025-08-18,completed,12
+238,Customer 09,polyester microfiber,563,2025-05-13,2025-05-25,2025-05-19,completed,6
+239,Customer 11,poly-cotton,477,2025-06-15,2025-06-26,2025-06-24,completed,9
+240,Customer 13,poly-cotton,393,2025-08-07,2025-08-16,2025-08-12,completed,5
+241,Customer 13,polyester microfiber,924,2025-03-29,2025-04-09,2025-04-04,completed,6
+242,Customer 03,cotton jersey,1717,2025-06-02,2025-06-11,2025-06-12,completed,10
+243,Customer 09,poly-cotton,1008,2025-03-29,2025-04-08,2025-04-04,completed,6
+244,Customer 09,viscose,406,2025-10-07,2025-10-17,2025-10-15,completed,8
+245,Customer 14,cotton jersey,574,2025-01-10,2025-01-21,2025-01-15,completed,5
+246,Customer 03,poly-cotton,1184,2025-07-16,2025-07-28,2025-07-26,completed,10
+247,Customer 09,viscose,603,2025-01-18,2025-01-25,2025-01-28,completed,10
+248,Customer 05,poly-cotton,1568,2025-01-09,2025-01-21,2025-01-15,completed,6
+249,Customer 07,cotton jersey,176,2025-11-12,2025-11-24,,in_progress,
+250,Customer 08,polyester microfiber,1228,2025-10-12,2025-10-23,2025-10-20,completed,8
+251,Customer 10,poly-cotton,462,2025-12-02,2025-12-11,,in_progress,
+252,Customer 01,cotton poplin,170,2025-02-10,2025-02-18,2025-02-17,completed,7
+253,Customer 02,cotton poplin,2510,2025-06-15,2025-06-27,2025-06-25,completed,10
+254,Customer 06,cotton jersey,901,2025-02-13,2025-02-23,2025-02-18,completed,5
+255,Customer 05,cotton jersey,1310,2025-09-20,2025-09-27,2025-09-26,completed,6
+256,Customer 06,cotton poplin,341,2025-07-14,2025-07-26,2025-07-18,completed,4
+257,Customer 06,poly-cotton,1180,2025-02-27,2025-03-09,2025-03-08,completed,9
+258,Customer 03,viscose,1486,2025-07-01,2025-07-12,2025-07-07,completed,6
+259,Customer 15,cotton jersey,351,2025-08-04,2025-08-13,2025-08-09,completed,5
+260,Customer 11,poly-cotton,1963,2025-04-08,2025-04-19,2025-04-18,completed,10
+261,Customer 06,cotton poplin,509,2025-08-08,2025-08-18,2025-08-17,completed,9
+262,Customer 05,poly-cotton,216,2025-01-28,2025-02-04,2025-02-02,completed,5
+263,Customer 11,poly-cotton,248,2025-11-08,2025-11-18,2025-11-12,completed,4
+264,Customer 10,polyester microfiber,184,2025-04-21,2025-04-30,2025-04-29,completed,8
+265,Customer 10,viscose,2198,2025-05-27,2025-06-07,2025-06-03,completed,7
+266,Customer 05,cotton poplin,442,2025-02-01,2025-02-08,2025-02-05,completed,4
+267,Customer 01,polyester microfiber,252,2025-04-29,2025-05-10,2025-05-08,completed,9
+268,Customer 12,viscose,401,2025-04-05,2025-04-16,2025-04-13,completed,8
+269,Customer 07,poly-cotton,208,2025-05-04,2025-05-16,2025-05-10,completed,6
+270,Customer 06,poly-cotton,253,2025-08-01,2025-08-10,2025-08-09,completed,8
+271,Customer 05,cotton poplin,561,2025-05-27,2025-06-07,2025-06-05,completed,9
+272,Customer 04,viscose,607,2025-08-20,2025-09-01,2025-08-30,completed,10
+273,Customer 13,viscose,2690,2025-06-16,2025-06-24,2025-06-24,completed,8
+274,Customer 12,cotton jersey,1577,2025-03-01,2025-03-08,2025-03-12,completed,11
+275,Customer 05,viscose,166,2025-09-28,2025-10-09,2025-10-03,completed,5
+276,Customer 14,polyester microfiber,1085,2025-05-07,2025-05-15,2025-05-17,completed,10
+277,Customer 02,polyester microfiber,608,2025-02-26,2025-03-08,2025-03-03,completed,5
+278,Customer 09,cotton jersey,444,2025-03-30,2025-04-10,2025-04-05,completed,6
+279,Customer 06,polyester microfiber,207,2025-05-17,2025-05-26,2025-05-22,completed,5
+280,Customer 03,poly-cotton,1820,2025-06-21,2025-06-28,2025-06-26,completed,5
+281,Customer 09,cotton poplin,533,2025-06-30,2025-07-11,2025-07-09,completed,9
+282,Customer 07,viscose,180,2025-08-24,2025-09-01,2025-08-29,completed,5
+283,Customer 10,cotton jersey,192,2025-02-27,2025-03-08,2025-03-05,completed,6
+284,Customer 15,cotton jersey,525,2025-03-26,2025-04-06,2025-04-07,completed,12
+285,Customer 11,poly-cotton,1531,2025-05-25,2025-06-05,2025-06-01,completed,7
+286,Customer 05,poly-cotton,446,2025-11-29,2025-12-07,,in_progress,
+287,Customer 04,cotton jersey,642,2025-01-11,2025-01-20,2025-01-20,completed,9
+288,Customer 11,poly-cotton,277,2025-08-04,2025-08-14,2025-08-08,completed,4
+289,Customer 01,poly-cotton,1565,2025-05-08,2025-05-19,2025-05-15,completed,7
+290,Customer 07,cotton jersey,376,2025-04-11,2025-04-20,2025-04-16,completed,5
+291,Customer 08,viscose,1181,2025-06-14,2025-06-22,2025-07-01,completed,17
+292,Customer 02,polyester microfiber,1241,2025-07-24,2025-08-03,2025-08-04,completed,11
+293,Customer 12,polyester microfiber,2492,2025-11-18,2025-11-27,,in_progress,
+294,Customer 09,polyester microfiber,1907,2025-09-02,2025-09-10,2025-09-10,completed,8
+295,Customer 03,poly-cotton,407,2025-09-17,2025-09-25,2025-09-21,completed,4
+296,Customer 05,cotton poplin,265,2025-01-22,2025-02-02,2025-01-31,completed,9
+297,Customer 01,polyester microfiber,1157,2025-01-31,2025-02-12,2025-02-07,completed,7
+298,Customer 04,poly-cotton,649,2025-07-09,2025-07-21,2025-07-14,completed,5
+299,Customer 13,viscose,203,2025-10-05,2025-10-12,2025-10-14,completed,9
+300,Customer 06,poly-cotton,208,2025-11-28,2025-12-09,,in_progress,
+301,Customer 01,poly-cotton,2596,2025-03-27,2025-04-05,2025-04-03,completed,7
+302,Customer 10,poly-cotton,1154,2025-05-27,2025-06-06,2025-06-05,completed,9
+303,Customer 15,cotton jersey,1902,2025-04-27,2025-05-07,2025-05-05,completed,8
+304,Customer 10,cotton poplin,1197,2025-03-08,2025-03-19,2025-03-16,completed,8
+305,Customer 05,cotton jersey,519,2025-09-21,2025-10-01,2025-09-29,completed,8
+306,Customer 15,viscose,1553,2025-02-18,2025-03-02,2025-02-25,completed,7
+307,Customer 06,cotton jersey,324,2025-10-27,2025-11-04,2025-11-04,completed,8
+308,Customer 12,viscose,396,2025-11-17,2025-11-26,,in_progress,
+309,Customer 15,polyester microfiber,391,2025-03-03,2025-03-14,2025-03-11,completed,8
+310,Customer 11,cotton jersey,199,2025-10-02,2025-10-12,2025-10-06,completed,4
+311,Customer 12,polyester microfiber,1610,2025-05-24,2025-06-03,2025-06-03,completed,10
+312,Customer 09,cotton jersey,415,2025-03-27,2025-04-03,2025-04-03,completed,7
+313,Customer 04,cotton poplin,366,2025-05-29,2025-06-10,2025-06-09,completed,11
+314,Customer 15,cotton poplin,906,2025-08-07,2025-08-17,2025-08-13,completed,6
+315,Customer 10,poly-cotton,1858,2025-03-21,2025-03-30,2025-03-30,completed,9
+316,Customer 08,poly-cotton,289,2025-10-23,2025-11-03,2025-11-02,completed,10
+317,Customer 13,cotton poplin,967,2025-07-16,2025-07-26,2025-07-24,completed,8
+318,Customer 01,poly-cotton,647,2025-01-27,2025-02-08,2025-02-05,completed,9
+319,Customer 15,polyester microfiber,516,2025-04-13,2025-04-24,2025-04-22,completed,9
+320,Customer 08,viscose,611,2025-03-19,2025-03-31,2025-03-24,completed,5
+321,Customer 10,polyester microfiber,1407,2025-11-26,2025-12-05,,in_progress,
+322,Customer 11,cotton poplin,1086,2025-03-23,2025-04-03,2025-03-29,completed,6
+323,Customer 03,viscose,237,2025-09-06,2025-09-14,2025-09-12,completed,6
+324,Customer 03,polyester microfiber,245,2025-02-03,2025-02-13,2025-02-07,completed,4
+325,Customer 02,polyester microfiber,1836,2025-03-29,2025-04-09,2025-04-06,completed,8
+326,Customer 02,viscose,1788,2025-06-04,2025-06-11,2025-06-12,completed,8
+327,Customer 13,poly-cotton,1230,2025-10-25,2025-11-02,2025-11-05,completed,11
+328,Customer 05,viscose,414,2025-11-17,2025-11-24,,in_progress,
+329,Customer 08,poly-cotton,461,2025-06-08,2025-06-16,2025-06-18,completed,10
+330,Customer 10,viscose,1039,2025-03-26,2025-04-06,2025-04-01,completed,6
+331,Customer 13,cotton poplin,814,2025-07-24,2025-08-02,2025-07-29,completed,5
+332,Customer 05,cotton poplin,2192,2025-01-25,2025-02-01,2025-01-30,completed,5
+333,Customer 02,poly-cotton,1372,2025-01-28,2025-02-08,2025-02-08,completed,11
+334,Customer 15,poly-cotton,395,2025-04-21,2025-05-02,2025-04-27,completed,6
+335,Customer 03,poly-cotton,253,2025-06-28,2025-07-08,2025-07-05,completed,7
+336,Customer 05,poly-cotton,1941,2025-11-07,2025-11-17,2025-11-12,completed,5
+337,Customer 06,viscose,2107,2025-12-01,2025-12-08,,in_progress,
+338,Customer 10,viscose,1268,2025-09-08,2025-09-20,2025-09-16,completed,8
+339,Customer 07,viscose,610,2025-08-14,2025-08-23,2025-08-20,completed,6
+340,Customer 15,poly-cotton,687,2025-02-10,2025-02-18,2025-02-15,completed,5
+341,Customer 14,cotton jersey,2744,2025-10-30,2025-11-07,2025-11-07,completed,8
+342,Customer 12,cotton jersey,234,2025-06-05,2025-06-15,2025-06-12,completed,7
+343,Customer 03,viscose,1754,2025-11-04,2025-11-12,2025-11-14,completed,10
+344,Customer 14,cotton jersey,604,2025-01-11,2025-01-22,2025-01-19,completed,8
+345,Customer 15,viscose,324,2025-08-24,2025-09-03,2025-09-01,completed,8
+346,Customer 12,poly-cotton,233,2025-10-12,2025-10-24,2025-10-17,completed,5
+347,Customer 08,polyester microfiber,871,2025-10-02,2025-10-09,2025-10-11,completed,9
+348,Customer 02,poly-cotton,2369,2025-08-26,2025-09-05,2025-09-02,completed,7
+349,Customer 15,poly-cotton,390,2025-03-11,2025-03-19,2025-03-19,completed,8
+350,Customer 13,cotton poplin,730,2025-11-04,2025-11-14,2025-11-12,completed,8
+351,Customer 11,cotton poplin,1795,2025-07-21,2025-07-31,2025-07-27,completed,6
+352,Customer 02,viscose,224,2025-07-24,2025-07-31,2025-08-04,completed,11
+353,Customer 05,polyester microfiber,1182,2025-10-05,2025-10-14,2025-10-16,completed,11
+354,Customer 03,cotton jersey,172,2025-04-14,2025-04-25,2025-04-18,completed,4
+355,Customer 03,poly-cotton,1363,2025-07-17,2025-07-26,2025-07-24,completed,7
+356,Customer 10,cotton jersey,715,2025-08-19,2025-08-26,2025-08-24,completed,5
+357,Customer 15,viscose,152,2025-05-14,2025-05-23,2025-05-23,completed,9
+358,Customer 01,poly-cotton,1852,2025-07-25,2025-08-02,2025-08-02,completed,8
+359,Customer 14,viscose,231,2025-07-21,2025-08-01,2025-07-27,completed,6
+360,Customer 02,cotton jersey,3149,2025-06-29,2025-07-09,2025-07-09,completed,10
+361,Customer 10,polyester microfiber,503,2025-10-09,2025-10-21,2025-10-17,completed,8
+362,Customer 11,cotton jersey,336,2025-05-05,2025-05-13,2025-05-11,completed,6
+363,Customer 03,polyester microfiber,2059,2025-01-31,2025-02-11,2025-02-05,completed,5
+364,Customer 03,cotton jersey,384,2025-06-26,2025-07-03,2025-07-04,completed,8
+365,Customer 10,poly-cotton,250,2025-02-26,2025-03-10,2025-03-07,completed,9
+366,Customer 06,viscose,564,2025-05-31,2025-06-09,2025-06-12,completed,12
+367,Customer 14,cotton jersey,428,2025-08-08,2025-08-20,2025-08-14,completed,6
+368,Customer 13,viscose,735,2025-09-05,2025-09-16,2025-09-11,completed,6
+369,Customer 08,cotton jersey,276,2025-08-26,2025-09-07,2025-08-31,completed,5
+370,Customer 12,poly-cotton,382,2025-11-05,2025-11-13,2025-11-09,completed,4
+371,Customer 03,cotton poplin,261,2025-08-05,2025-08-15,2025-08-13,completed,8
+372,Customer 01,polyester microfiber,1255,2025-07-23,2025-08-03,2025-08-01,completed,9
+373,Customer 10,cotton poplin,183,2025-05-29,2025-06-10,2025-06-03,completed,5
+374,Customer 07,poly-cotton,1342,2025-04-03,2025-04-14,2025-04-14,completed,11
+375,Customer 10,cotton jersey,627,2025-09-08,2025-09-20,2025-09-17,completed,9
+376,Customer 10,viscose,868,2025-01-18,2025-01-30,2025-01-25,completed,7
+377,Customer 11,poly-cotton,1798,2025-10-10,2025-10-17,2025-10-19,completed,9
+378,Customer 02,poly-cotton,1664,2025-09-07,2025-09-17,2025-09-13,completed,6
+379,Customer 11,viscose,1045,2025-02-16,2025-02-27,2025-02-22,completed,6
+380,Customer 05,viscose,1018,2025-06-26,2025-07-05,2025-07-02,completed,6
+381,Customer 04,cotton poplin,666,2025-08-27,2025-09-04,2025-09-05,completed,9
+382,Customer 09,cotton jersey,781,2025-10-20,2025-10-31,2025-10-30,completed,10
+383,Customer 07,polyester microfiber,1058,2025-06-24,2025-07-01,2025-07-01,completed,7
+384,Customer 02,cotton poplin,204,2025-11-18,2025-11-25,,in_progress,
+385,Customer 01,viscose,556,2025-10-08,2025-10-17,2025-10-16,completed,8
+386,Customer 13,polyester microfiber,225,2025-05-31,2025-06-08,2025-06-06,completed,6
+387,Customer 15,viscose,631,2025-08-11,2025-08-18,2025-08-17,completed,6
+388,Customer 03,viscose,362,2025-11-04,2025-11-12,2025-11-11,completed,7
+389,Customer 11,polyester microfiber,516,2025-07-20,2025-08-01,2025-07-27,completed,7
+390,Customer 06,viscose,1616,2025-06-02,2025-06-14,2025-06-12,completed,10
+391,Customer 01,viscose,747,2025-10-30,2025-11-07,2025-11-06,completed,7
+392,Customer 13,polyester microfiber,342,2025-05-25,2025-06-05,2025-05-29,completed,4
+393,Customer 10,poly-cotton,528,2025-04-01,2025-04-12,2025-04-05,completed,4
+394,Customer 03,cotton poplin,166,2025-07-05,2025-07-13,2025-07-09,completed,4
+395,Customer 04,cotton poplin,857,2025-09-20,2025-09-27,2025-09-30,completed,10
+396,Customer 10,cotton poplin,527,2025-03-12,2025-03-23,2025-03-22,completed,10
+397,Customer 10,viscose,340,2025-02-05,2025-02-13,2025-02-13,completed,8
+398,Customer 12,cotton poplin,392,2025-04-18,2025-04-26,2025-04-27,completed,9
+399,Customer 10,polyester microfiber,138,2025-04-14,2025-04-26,2025-04-20,completed,6
+400,Customer 12,viscose,454,2025-04-10,2025-04-19,2025-04-18,completed,8
+401,Customer 15,poly-cotton,957,2025-06-02,2025-06-09,2025-06-08,completed,6
+402,Customer 07,polyester microfiber,597,2025-09-06,2025-09-14,2025-09-10,completed,4
+403,Customer 02,poly-cotton,3153,2025-07-30,2025-08-06,2025-08-08,completed,9
+404,Customer 13,viscose,1058,2025-05-14,2025-05-26,2025-05-21,completed,7
+405,Customer 15,viscose,609,2025-09-29,2025-10-08,2025-10-09,completed,10
+406,Customer 10,viscose,502,2025-03-31,2025-04-11,2025-04-09,completed,9
+407,Customer 06,viscose,892,2025-09-03,2025-09-12,2025-09-09,completed,6
+408,Customer 15,cotton jersey,1425,2025-10-31,2025-11-11,2025-11-09,completed,9
+409,Customer 02,polyester microfiber,196,2025-08-09,2025-08-19,2025-08-13,completed,4
+410,Customer 02,polyester microfiber,708,2025-04-21,2025-05-03,2025-04-30,completed,9
+411,Customer 07,cotton jersey,1050,2025-10-29,2025-11-08,2025-11-04,completed,6
+412,Customer 15,poly-cotton,1284,2025-05-14,2025-05-24,2025-05-23,completed,9
+413,Customer 10,cotton jersey,682,2025-10-22,2025-11-03,2025-10-29,completed,7
+414,Customer 15,viscose,282,2025-05-06,2025-05-18,2025-05-13,completed,7
+415,Customer 13,cotton poplin,253,2025-01-24,2025-02-03,2025-02-02,completed,9
+416,Customer 13,cotton jersey,1081,2025-01-16,2025-01-23,2025-01-25,completed,9
+417,Customer 05,polyester microfiber,1822,2025-06-15,2025-06-23,2025-06-25,completed,10
+418,Customer 09,polyester microfiber,2361,2025-03-21,2025-03-28,2025-04-02,completed,12
+419,Customer 14,viscose,414,2025-05-07,2025-05-15,2025-05-13,completed,6
+420,Customer 05,viscose,781,2025-03-29,2025-04-10,2025-04-06,completed,8
+421,Customer 03,cotton jersey,673,2025-09-22,2025-10-04,2025-10-01,completed,9
+422,Customer 04,viscose,979,2025-11-24,2025-12-03,,in_progress,
+423,Customer 11,viscose,405,2025-02-18,2025-03-01,2025-02-27,completed,9
+424,Customer 14,cotton jersey,1465,2025-05-03,2025-05-13,2025-05-10,completed,7
+425,Customer 04,poly-cotton,504,2025-04-21,2025-04-30,2025-04-27,completed,6
+426,Customer 11,viscose,2235,2025-11-18,2025-11-29,,in_progress,
+427,Customer 03,cotton jersey,200,2025-11-08,2025-11-19,2025-11-12,completed,4
+428,Customer 15,cotton poplin,899,2025-05-19,2025-05-28,2025-05-31,completed,12
+429,Customer 07,polyester microfiber,1172,2025-08-14,2025-08-24,2025-08-24,completed,10
+430,Customer 02,viscose,567,2025-03-06,2025-03-15,2025-03-10,completed,4
+431,Customer 03,polyester microfiber,382,2025-04-20,2025-05-01,2025-04-28,completed,8
+432,Customer 10,cotton jersey,205,2025-08-07,2025-08-16,2025-08-14,completed,7
+433,Customer 01,polyester microfiber,220,2025-03-01,2025-03-13,2025-03-09,completed,8
+434,Customer 02,cotton jersey,692,2025-06-23,2025-07-03,2025-06-29,completed,6
+435,Customer 15,cotton poplin,299,2025-01-16,2025-01-25,2025-01-25,completed,9
+436,Customer 10,cotton poplin,265,2025-11-10,2025-11-21,2025-11-16,completed,6
+437,Customer 14,cotton jersey,882,2025-08-10,2025-08-19,2025-08-20,completed,10
+438,Customer 08,poly-cotton,455,2025-05-13,2025-05-20,2025-05-20,completed,7
+439,Customer 01,polyester microfiber,466,2025-10-24,2025-11-03,2025-10-29,completed,5
+440,Customer 14,viscose,830,2025-02-17,2025-02-27,2025-02-27,completed,10
+441,Customer 04,viscose,555,2025-11-10,2025-11-17,2025-11-15,completed,5
+442,Customer 12,cotton jersey,665,2025-03-04,2025-03-12,2025-03-10,completed,6
+443,Customer 09,viscose,907,2025-08-21,2025-09-02,2025-08-30,completed,9
+444,Customer 08,cotton jersey,404,2025-06-03,2025-06-10,2025-06-11,completed,8
+445,Customer 10,polyester microfiber,251,2025-11-20,2025-11-28,,in_progress,
+446,Customer 10,poly-cotton,2781,2025-06-28,2025-07-06,2025-07-04,completed,6
+447,Customer 13,cotton jersey,900,2025-09-14,2025-09-21,2025-09-21,completed,7
+448,Customer 05,polyester microfiber,2174,2025-10-18,2025-10-30,2025-10-24,completed,6
+449,Customer 06,poly-cotton,570,2025-08-20,2025-08-29,2025-08-27,completed,7
+450,Customer 02,polyester microfiber,688,2025-08-06,2025-08-17,2025-08-16,completed,10
+451,Customer 11,polyester microfiber,326,2025-02-18,2025-02-25,2025-02-26,completed,8
+452,Customer 15,polyester microfiber,664,2025-09-29,2025-10-10,2025-10-07,completed,8
+453,Customer 02,viscose,407,2025-03-22,2025-03-31,2025-03-27,completed,5
+454,Customer 06,poly-cotton,1675,2025-01-24,2025-02-04,2025-01-30,completed,6
+455,Customer 01,cotton poplin,197,2025-11-27,2025-12-09,,in_progress,
+456,Customer 12,polyester microfiber,531,2025-07-15,2025-07-23,2025-07-25,completed,10
+457,Customer 09,poly-cotton,467,2025-07-18,2025-07-30,2025-07-27,completed,9
+458,Customer 09,poly-cotton,2283,2025-07-31,2025-08-12,2025-08-06,completed,6
+459,Customer 06,cotton jersey,452,2025-10-03,2025-10-12,2025-10-10,completed,7
+460,Customer 08,polyester microfiber,554,2025-06-10,2025-06-20,2025-06-15,completed,5
+461,Customer 04,polyester microfiber,722,2025-10-26,2025-11-05,2025-11-03,completed,8
+462,Customer 10,polyester microfiber,1366,2025-07-27,2025-08-04,2025-08-01,completed,5
+463,Customer 07,poly-cotton,1174,2025-10-10,2025-10-19,2025-10-15,completed,5
+464,Customer 05,viscose,169,2025-04-08,2025-04-16,2025-04-13,completed,5
+465,Customer 02,cotton poplin,370,2025-02-20,2025-03-02,2025-02-28,completed,8
+466,Customer 08,cotton poplin,392,2025-06-18,2025-06-26,2025-06-26,completed,8
+467,Customer 15,poly-cotton,197,2025-09-23,2025-10-01,2025-10-02,completed,9
+468,Customer 07,polyester microfiber,923,2025-01-15,2025-01-26,2025-01-21,completed,6
+469,Customer 05,viscose,234,2025-10-17,2025-10-28,2025-10-23,completed,6
+470,Customer 13,polyester microfiber,1095,2025-07-19,2025-07-28,2025-07-29,completed,10
+471,Customer 10,polyester microfiber,412,2025-08-25,2025-09-01,2025-09-03,completed,9
+472,Customer 04,cotton jersey,1698,2025-09-06,2025-09-13,2025-09-14,completed,8
+473,Customer 04,polyester microfiber,1620,2025-01-16,2025-01-23,2025-01-24,completed,8
+474,Customer 02,viscose,467,2025-11-28,2025-12-06,,in_progress,
+475,Customer 11,cotton poplin,694,2025-11-03,2025-11-13,2025-11-10,completed,7
+476,Customer 01,polyester microfiber,297,2025-02-01,2025-02-09,2025-02-10,completed,9
+477,Customer 02,viscose,1612,2025-05-28,2025-06-06,2025-06-04,completed,7
+478,Customer 06,cotton jersey,393,2025-11-22,2025-11-30,,in_progress,
+479,Customer 15,polyester microfiber,897,2025-02-02,2025-02-09,2025-02-08,completed,6
+480,Customer 10,cotton jersey,578,2025-08-20,2025-08-27,2025-08-27,completed,7
+481,Customer 11,cotton poplin,1379,2025-08-04,2025-08-12,2025-08-15,completed,11
+482,Customer 10,polyester microfiber,210,2025-09-23,2025-10-02,2025-09-28,completed,5
+483,Customer 10,poly-cotton,1396,2025-08-17,2025-08-26,2025-08-27,completed,10
+484,Customer 12,viscose,220,2025-06-08,2025-06-16,2025-06-17,completed,9
+485,Customer 03,viscose,615,2025-05-03,2025-05-10,2025-05-12,completed,9
+486,Customer 12,viscose,732,2025-06-03,2025-06-12,2025-06-08,completed,5
+487,Customer 02,polyester microfiber,959,2025-04-05,2025-04-17,2025-04-15,completed,10
+488,Customer 10,cotton poplin,981,2025-03-07,2025-03-18,2025-03-15,completed,8
+489,Customer 08,cotton poplin,666,2025-09-13,2025-09-23,2025-09-23,completed,10
+490,Customer 07,poly-cotton,648,2025-05-23,2025-06-01,2025-05-28,completed,5
+491,Customer 01,poly-cotton,391,2025-07-18,2025-07-29,2025-07-23,completed,5
+492,Customer 09,poly-cotton,581,2025-09-01,2025-09-12,2025-09-08,completed,7
+493,Customer 14,cotton jersey,2502,2025-10-12,2025-10-22,2025-10-20,completed,8
+494,Customer 14,cotton jersey,397,2025-10-29,2025-11-07,2025-11-03,completed,5
+495,Customer 03,viscose,2671,2025-04-12,2025-04-20,2025-04-19,completed,7
+496,Customer 02,poly-cotton,962,2025-06-24,2025-07-03,2025-07-04,completed,10
+497,Customer 06,cotton jersey,552,2025-04-03,2025-04-11,2025-04-10,completed,7
+498,Customer 05,viscose,180,2025-08-04,2025-08-12,2025-08-09,completed,5
+499,Customer 14,viscose,740,2025-08-15,2025-08-22,2025-08-22,completed,7
+500,Customer 08,poly-cotton,1701,2025-07-29,2025-08-08,2025-08-08,completed,10
+501,Customer 13,cotton poplin,824,2025-07-21,2025-07-31,2025-07-29,completed,8
+502,Customer 04,cotton jersey,1154,2025-10-16,2025-10-28,2025-10-26,completed,10
+503,Customer 06,cotton poplin,761,2025-08-18,2025-08-28,2025-08-24,completed,6
+504,Customer 01,cotton poplin,1262,2025-04-07,2025-04-18,2025-04-12,completed,5
+505,Customer 11,viscose,1336,2025-01-30,2025-02-10,2025-02-06,completed,7
+506,Customer 07,poly-cotton,177,2025-04-13,2025-04-20,2025-04-18,completed,5
+507,Customer 07,cotton jersey,160,2025-06-16,2025-06-24,2025-06-20,completed,4
+508,Customer 02,poly-cotton,816,2025-06-09,2025-06-19,2025-06-19,completed,10
+509,Customer 02,cotton jersey,835,2025-06-26,2025-07-07,2025-07-02,completed,6
+510,Customer 15,cotton poplin,378,2025-02-05,2025-02-17,2025-02-12,completed,7
+511,Customer 06,cotton poplin,692,2025-06-23,2025-07-05,2025-06-30,completed,7
+512,Customer 09,cotton poplin,274,2025-06-30,2025-07-10,2025-07-08,completed,8
+513,Customer 02,cotton poplin,173,2025-06-19,2025-06-27,2025-06-24,completed,5
+514,Customer 02,poly-cotton,614,2025-04-04,2025-04-14,2025-04-11,completed,7
+515,Customer 07,viscose,182,2025-07-09,2025-07-19,2025-07-13,completed,4
+516,Customer 01,polyester microfiber,696,2025-02-17,2025-02-25,2025-02-23,completed,6
+517,Customer 03,poly-cotton,932,2025-01-12,2025-01-23,2025-01-20,completed,8
+518,Customer 15,viscose,4016,2025-04-15,2025-04-27,2025-04-28,completed,13
+519,Customer 02,viscose,1569,2025-07-21,2025-07-28,2025-07-31,completed,10
+520,Customer 04,poly-cotton,988,2025-11-27,2025-12-05,,in_progress,
+521,Customer 03,cotton poplin,513,2025-09-12,2025-09-24,2025-09-17,completed,5
+522,Customer 05,polyester microfiber,198,2025-02-15,2025-02-22,2025-02-19,completed,4
+523,Customer 01,poly-cotton,887,2025-01-09,2025-01-16,2025-01-16,completed,7
+524,Customer 14,viscose,691,2025-08-27,2025-09-08,2025-09-01,completed,5
+525,Customer 15,cotton jersey,1872,2025-06-19,2025-07-01,2025-06-29,completed,10
+526,Customer 09,viscose,376,2025-02-26,2025-03-10,2025-03-04,completed,6
+527,Customer 12,cotton poplin,823,2025-09-02,2025-09-14,2025-09-11,completed,9
+528,Customer 10,cotton jersey,1385,2025-09-14,2025-09-21,2025-09-24,completed,10
+529,Customer 11,cotton poplin,923,2025-07-13,2025-07-23,2025-07-23,completed,10
+530,Customer 07,cotton poplin,1581,2025-08-27,2025-09-08,2025-09-03,completed,7
+531,Customer 07,polyester microfiber,1268,2025-02-05,2025-02-17,2025-02-12,completed,7
+532,Customer 13,cotton poplin,789,2025-06-08,2025-06-16,2025-06-15,completed,7
+533,Customer 15,cotton jersey,473,2025-04-16,2025-04-24,2025-04-25,completed,9
+534,Customer 07,cotton jersey,156,2025-02-03,2025-02-15,2025-02-14,completed,11
+535,Customer 07,cotton jersey,336,2025-05-11,2025-05-23,2025-05-18,completed,7
+536,Customer 12,viscose,179,2025-05-26,2025-06-04,2025-06-02,completed,7
+537,Customer 15,poly-cotton,238,2025-02-23,2025-03-07,2025-02-27,completed,4
+538,Customer 14,cotton poplin,1116,2025-10-08,2025-10-20,2025-10-16,completed,8
+539,Customer 12,cotton poplin,941,2025-03-10,2025-03-20,2025-03-20,completed,10
+540,Customer 15,poly-cotton,1218,2025-06-15,2025-06-27,2025-06-23,completed,8
+541,Customer 07,viscose,1155,2025-03-30,2025-04-07,2025-04-08,completed,9
+542,Customer 02,polyester microfiber,1347,2025-03-25,2025-04-04,2025-04-04,completed,10
+543,Customer 09,polyester microfiber,772,2025-10-03,2025-10-15,2025-10-08,completed,5
+544,Customer 08,cotton poplin,675,2025-03-26,2025-04-07,2025-04-02,completed,7
+545,Customer 09,viscose,2464,2025-04-09,2025-04-19,2025-04-18,completed,9
+546,Customer 04,cotton jersey,501,2025-10-05,2025-10-14,2025-10-14,completed,9
+547,Customer 01,poly-cotton,234,2025-10-03,2025-10-12,2025-10-11,completed,8
+548,Customer 08,viscose,563,2025-08-10,2025-08-19,2025-08-16,completed,6
+549,Customer 15,polyester microfiber,1605,2025-06-05,2025-06-15,2025-06-09,completed,4
+550,Customer 01,viscose,239,2025-11-18,2025-11-27,,in_progress,
+551,Customer 09,viscose,614,2025-02-26,2025-03-06,2025-03-06,completed,8
+552,Customer 15,cotton jersey,2487,2025-05-23,2025-06-04,2025-06-02,completed,10
+553,Customer 14,cotton poplin,260,2025-07-24,2025-08-05,2025-07-28,completed,4
+554,Customer 03,viscose,3718,2025-06-30,2025-07-07,2025-07-07,completed,7
+555,Customer 05,cotton jersey,415,2025-07-30,2025-08-10,2025-08-06,completed,7
+556,Customer 12,cotton poplin,334,2025-11-26,2025-12-05,,in_progress,
+557,Customer 07,cotton poplin,187,2025-08-08,2025-08-15,2025-08-18,completed,10
+558,Customer 10,polyester microfiber,1625,2025-04-10,2025-04-21,2025-04-16,completed,6
+559,Customer 07,polyester microfiber,578,2025-06-30,2025-07-10,2025-07-05,completed,5
+560,Customer 04,poly-cotton,800,2025-10-01,2025-10-10,2025-10-10,completed,9
+561,Customer 14,cotton jersey,354,2025-04-10,2025-04-19,2025-04-18,completed,8
+562,Customer 01,polyester microfiber,702,2025-04-28,2025-05-05,2025-05-07,completed,9
+563,Customer 10,poly-cotton,1574,2025-07-02,2025-07-10,2025-07-14,completed,12
+564,Customer 03,viscose,379,2025-11-24,2025-12-04,,in_progress,
+565,Customer 09,cotton poplin,1879,2025-04-06,2025-04-18,2025-04-11,completed,5
+566,Customer 12,cotton jersey,609,2025-03-17,2025-03-28,2025-03-24,completed,7
+567,Customer 09,cotton jersey,214,2025-06-28,2025-07-05,2025-07-03,completed,5
+568,Customer 07,poly-cotton,177,2025-05-22,2025-05-30,2025-05-26,completed,4
+569,Customer 02,cotton poplin,384,2025-07-22,2025-07-30,2025-07-29,completed,7
+570,Customer 06,cotton jersey,1265,2025-04-30,2025-05-08,2025-05-11,completed,11
+571,Customer 03,viscose,219,2025-03-22,2025-03-30,2025-03-28,completed,6
+572,Customer 09,polyester microfiber,334,2025-07-22,2025-08-01,2025-07-29,completed,7
+573,Customer 14,poly-cotton,880,2025-09-17,2025-09-25,2025-09-22,completed,5
+574,Customer 03,polyester microfiber,854,2025-01-14,2025-01-26,2025-01-19,completed,5
+575,Customer 14,cotton poplin,248,2025-03-07,2025-03-17,2025-03-11,completed,4
+576,Customer 08,cotton poplin,364,2025-11-06,2025-11-14,2025-11-11,completed,5
+577,Customer 07,poly-cotton,800,2025-03-18,2025-03-25,2025-03-24,completed,6
+578,Customer 07,viscose,778,2025-08-10,2025-08-18,2025-08-15,completed,5
+579,Customer 10,poly-cotton,520,2025-04-10,2025-04-19,2025-04-15,completed,5
+580,Customer 11,cotton jersey,345,2025-06-26,2025-07-04,2025-07-04,completed,8
+581,Customer 06,cotton poplin,621,2025-01-22,2025-01-29,2025-01-28,completed,6
+582,Customer 14,viscose,919,2025-05-30,2025-06-10,2025-06-07,completed,8
+583,Customer 03,polyester microfiber,588,2025-01-25,2025-02-06,2025-02-03,completed,9
+584,Customer 10,poly-cotton,2004,2025-03-29,2025-04-06,2025-04-04,completed,6
+585,Customer 02,cotton jersey,1467,2025-11-12,2025-11-20,,in_progress,
+586,Customer 02,viscose,426,2025-10-24,2025-11-02,2025-10-30,completed,6
+587,Customer 14,poly-cotton,637,2025-08-05,2025-08-15,2025-08-11,completed,6
+588,Customer 04,cotton jersey,202,2025-08-30,2025-09-09,2025-09-06,completed,7
+589,Customer 08,polyester microfiber,569,2025-07-30,2025-08-07,2025-08-07,completed,8
+590,Customer 01,cotton poplin,284,2025-03-21,2025-03-29,2025-03-28,completed,7
+591,Customer 12,cotton jersey,2124,2025-04-24,2025-05-05,2025-05-03,completed,9
+592,Customer 06,viscose,1556,2025-03-29,2025-04-06,2025-04-06,completed,8
+593,Customer 12,cotton jersey,231,2025-06-17,2025-06-28,2025-06-23,completed,6
+594,Customer 06,viscose,1579,2025-01-07,2025-01-16,2025-01-18,completed,11
+595,Customer 13,viscose,702,2025-10-10,2025-10-17,2025-10-15,completed,5
+596,Customer 04,cotton jersey,984,2025-02-28,2025-03-07,2025-03-08,completed,8
+597,Customer 05,cotton jersey,179,2025-09-03,2025-09-12,2025-09-11,completed,8
+598,Customer 03,polyester microfiber,1192,2025-05-21,2025-05-31,2025-06-01,completed,11
+599,Customer 11,viscose,1309,2025-11-27,2025-12-09,,in_progress,
+600,Customer 01,cotton poplin,301,2025-07-08,2025-07-20,2025-07-14,completed,6
