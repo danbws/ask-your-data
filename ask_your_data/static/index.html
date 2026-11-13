@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ask-your-data</title>
+<style>
+  :root { --ink:#111827; --muted:#6b7280; --line:#e5e7eb; --bg:#f8fafc; --card:#fff; --accent:#2f5d8a; --bad:#b42318; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--ink); background:var(--bg); }
+  main { max-width: 860px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 22px; margin: 0 0 2px; }
+  .sub { color: var(--muted); margin: 0 0 20px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; margin-bottom:16px; }
+  .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  input[type=text] { flex:1; min-width:220px; padding:9px 11px; border:1px solid var(--line); border-radius:8px; font:inherit; }
+  button { padding:9px 14px; border:0; border-radius:8px; background:var(--accent); color:#fff; font:inherit; cursor:pointer; }
+  button.ghost { background:#fff; color:var(--accent); border:1px solid var(--accent); }
+  button:disabled { opacity:.5; cursor:default; }
+  .muted { color:var(--muted); font-size:13px; }
+  .answer { font-size:16px; }
+  .step { border-left:3px solid var(--line); padding:4px 0 4px 12px; margin:10px 0; }
+  .step.err { border-color: var(--bad); }
+  .step b { font-size:13px; text-transform:uppercase; letter-spacing:.04em; color:var(--accent); }
+  .step.err b { color: var(--bad); }
+  pre { background:#f3f4f6; padding:8px 10px; border-radius:6px; overflow-x:auto; font-size:12.5px; margin:6px 0 0; white-space:pre-wrap; }
+  img.chart { max-width:100%; border:1px solid var(--line); border-radius:8px; }
+  .note { font-style: italic; color: var(--muted); }
+  #status.error { color: var(--bad); }
+</style>
+</head>
+<body>
+<main>
+  <h1>ask-your-data</h1>
+  <p class="sub">Ask questions about your data in plain English. The agent shows the SQL it ran, its analysis and a chart.</p>
+
+  <div class="card">
+    <div class="row">
+      <input type="file" id="file" accept=".csv" multiple>
+      <button id="upload" class="ghost">Upload CSV</button>
+      <button id="sample" class="ghost">Use sample data</button>
+    </div>
+    <p class="muted" id="dataset">No dataset loaded.</p>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <input type="text" id="question" placeholder="e.g. Which machines have the highest re-dye rate?" value="Which machines have the highest re-dye rate, and does it add to lead time?">
+      <button id="ask" disabled>Ask</button>
+    </div>
+    <p class="muted" id="status"></p>
+  </div>
+
+  <div id="result" hidden>
+    <div class="card"><div class="answer" id="answer"></div><p class="muted" id="meta"></p></div>
+    <div class="card" id="chartCard" hidden><img class="chart" id="chart" alt="Chart"></div>
+    <div class="card"><b>How the agent got there</b><div id="steps"></div></div>
+  </div>
+</main>
+<script>
+let datasetId = null;
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+function setStatus(msg, isError) { $("status").textContent = msg; $("status").className = "muted" + (isError ? " error" : ""); }
+
+async function api(path, options) {
+  const res = await fetch(path, options);
+  const body = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(body.detail || res.statusText);
+  return body;
+}
+
+function useDataset(ds) {
+  datasetId = ds.dataset_id;
+  $("dataset").textContent = "Dataset: " + ds.name + " (tables: " + ds.tables.join(", ") + ")";
+  $("ask").disabled = false;
+}
+
+$("sample").onclick = async () => {
+  try { useDataset(await api("/datasets/sample", { method: "POST" })); } catch (e) { setStatus(e.message, true); }
+};
+$("upload").onclick = async () => {
+  const files = $("file").files;
+  if (!files.length) { setStatus("Choose a CSV file first.", true); return; }
+  const form = new FormData();
+  for (const f of files) form.append("files", f);
+  try { useDataset(await api("/datasets", { method: "POST", body: form })); setStatus(""); } catch (e) { setStatus(e.message, true); }
+};
+
+$("ask").onclick = async () => {
+  $("ask").disabled = true; setStatus("Thinking...");
+  try {
+    const r = await api("/ask", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ dataset_id: datasetId, question: $("question").value }) });
+    $("answer").textContent = r.answer;
+    $("meta").textContent = "provider: " + r.provider + " | stop: " + r.stop_reason + " | steps: " + r.steps.length;
+    $("chartCard").hidden = !r.chart_base64;
+    if (r.chart_base64) $("chart").src = "data:image/png;base64," + r.chart_base64;
+    $("steps").innerHTML = r.steps.map((s) => {
+      const inp = s.tool === "run_python" ? s.input.code : (s.input.sql || JSON.stringify(s.input));
+      return '<div class="step' + (s.is_error ? " err" : "") + '">' +
+        (s.note ? '<div class="note">' + esc(s.note) + "</div>" : "") +
+        "<b>" + s.index + ". " + esc(s.tool) + (s.is_error ? " (error)" : "") + "</b>" +
+        "<pre>" + esc(inp) + "</pre><pre>" + esc(s.output.split("\n").slice(0, 10).join("\n")) + "</pre></div>";
+    }).join("");
+    $("result").hidden = false; setStatus("");
+  } catch (e) { setStatus(e.message, true); }
+  $("ask").disabled = false;
+};
+
+// ?autodemo=1 : load the sample data and ask the default question (used for the README screenshot)
+if (new URLSearchParams(location.search).get("autodemo")) {
+  $("sample").click();
+  const wait = setInterval(() => { if (datasetId) { clearInterval(wait); $("ask").click(); } }, 100);
+}
+</script>
+</body>
+</html>
